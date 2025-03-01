@@ -1,0 +1,14 @@
+# IDE Files
+.idea
+.vs
+
+# Logs
+logs
+
+# Security Files
+configs/configs.json
+.env
+scripts/server.exe
+server.exe~
+server.exe
+docs
