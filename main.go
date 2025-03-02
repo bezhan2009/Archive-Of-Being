@@ -22,8 +22,8 @@ import (
 
 var err error
 
-// @title BizMart API
-// @version 1.3.2
+// @title ArchiveOfBeing API
+// @version 1.0.0
 
 // @description API Server for BizMart Application
 // @host localhost:8585
