@@ -1,7 +1,7 @@
 package middlewares
 
 import (
-	"BizMart/pkg/utils"
+	"ArchiveOfBeing/pkg/utils"
 	"fmt"
 	"github.com/gin-gonic/gin"
 	"net/http"

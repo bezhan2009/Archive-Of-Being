@@ -18,7 +18,7 @@ Archive of Being is a secure digital journal where every personal moment is capt
 - [License](#license)
 
 ## Introduction
-**Archive of Being** is a digital diary designed to safely store your personal journey. Developed with performance and scalability in mind, this project leverages Golang, the Gin framework, PostgreSQL, Redis, and JWT to provide a secure and high-performance platform for preserving your life's data.
+**Archive of Being** is a digital diaries designed to safely store your personal journey. Developed with performance and scalability in mind, this project leverages Golang, the Gin framework, PostgreSQL, Redis, and JWT to provide a secure and high-performance platform for preserving your life's data.
 
 ## Technologies
 - **Golang:** The core language powering the application for robust performance and efficiency.

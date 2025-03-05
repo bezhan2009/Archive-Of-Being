@@ -12,6 +12,9 @@ func Migrate() error {
 
 	err := dbConn.AutoMigrate(
 		&models2.User{},
+		&models2.Diary{},
+		&models2.Character{},
+		&models2.Page{},
 	)
 
 	if err != nil {

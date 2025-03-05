@@ -25,7 +25,7 @@ var err error
 // @title ArchiveOfBeing API
 // @version 1.0.0
 
-// @description API Server for BizMart Application
+// @description API Server for ArchiveOfBeing Application
 // @host localhost:8585
 // @BasePath /
 
