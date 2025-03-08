@@ -15,7 +15,7 @@
     "gin_mode": "release",
     "port_run": "8181",
     "server_url": "localhost",
-    "server_name": "BizMart_service"
+    "server_name": "Archive_service"
   },
   "postgres_params": {
     "host": "localhost",
