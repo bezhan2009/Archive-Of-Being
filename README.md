@@ -42,38 +42,18 @@ Archive of Being is a secure digital journal where every personal moment is capt
     cd archive-of-being
     ```
 
-2. **Set up environment variables:**
-
-   Create a `.env` file in the root directory and configure your settings:
-    ```env
-    DATABASE_URL=postgres://username:password@localhost:5432/dbname
-    REDIS_URL=redis://localhost:6379
-    JWT_SECRET=your_secret_key
-    ```
-
-3. **Install dependencies:**
+2. **Install dependencies:**
     ```bash
     go mod download
     ```
 
-4. **Run database migrations:**
-    ```bash
-    go run cmd/migrate/main.go
-    ```
-
-5. **Start the application:**
+3. **Start the application:**
     ```bash
     go run main.go
     ```
 
 ## Usage
-After starting the application, access it at [http://localhost:8080](http://localhost:8080). Use the API endpoints to register, log in, and start adding your personal entries. For detailed API documentation, refer to the [docs](docs/API.md).
-
-## Contributing
-Contributions are welcome! Please check out our [contributing guidelines](CONTRIBUTING.md) before submitting a pull request.
+After starting the application, access it at [http://localhost:8181](http://localhost:8181). Use the API endpoints to register, log in, and start adding your personal entries. For detailed API documentation, refer to the [docs](docs/API.md).
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Acknowledgements
-Thank you for choosing Archive of Being. We hope this digital journal becomes a timeless repository of your life's journey.
