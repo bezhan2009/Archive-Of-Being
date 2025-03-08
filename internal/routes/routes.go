@@ -40,5 +40,15 @@ func InitRoutes(r *gin.Engine) *gin.Engine {
 		character.DELETE("/:id", controllers.DeleteCharacter)
 	}
 
+	// Pages маршруты для страниц дневника
+	page := r.Group("/page", middlewares.CheckUserAuthentication)
+	{
+		page.GET("diary/:id", controllers.GetPagesByDiaryId)
+		page.GET(":id", controllers.GetPageById)
+		page.POST("", controllers.CreatePage)
+		page.PUT("/:id", controllers.UpdatePage)
+		page.DELETE("/:id", controllers.DeletePage)
+	}
+
 	return r
 }

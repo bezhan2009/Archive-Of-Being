@@ -25,7 +25,7 @@ func GetCharacterByID(characterId, userId uint) (models.Character, error) {
 	if result.Error != nil {
 		if errors.Is(result.Error, gorm.ErrRecordNotFound) {
 			logger.Warn.Printf("[repository.GetCharacterByID] Character not found with id: %d, user_id: %d", characterId, userId)
-			return models.Character{}, errs.ErrRecordNotFound // Возвращаем свою ошибку "не найдено"
+			return models.Character{}, errs.ErrCharacterNotFound // Возвращаем свою ошибку "не найдено"
 		}
 		logger.Error.Printf("[repository.GetCharacterByID] Error getting character by id: %d, user_id: %d: %v", characterId, userId, result.Error)
 		return models.Character{}, TranslateGormError(result.Error)
